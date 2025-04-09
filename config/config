@@ -1,0 +1,12 @@
+module                 stdio
+module                 g711
+module                 stun
+module                 turn
+module                 sip
+module                 tls
+
+sip_trans             TLS
+sip_listen            0.0.0.0:5060
+audio_codecs          g711
+audio_player          alsa,default
+audio_source          alsa,default
