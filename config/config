@@ -1,3 +1,4 @@
+
 module /usr/local/lib/baresip/modules/stdio.so
 module /usr/local/lib/baresip/modules/g711.so
 module /usr/local/lib/baresip/modules/stun.so

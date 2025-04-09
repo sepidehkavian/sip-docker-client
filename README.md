@@ -1,4 +1,5 @@
 
+
 # 📞 SIP-Docker-Client
 
 Ein vollständiger SIP-Client in Docker, gesteuert über REST und WebSocket – ohne zusätzliche Hardware!
@@ -51,11 +52,12 @@ Ein vollständiger SIP-Client in Docker, gesteuert über REST und WebSocket – 
 
 Erstelle im Projektverzeichnis eine `.env` Datei mit folgendem Inhalt:
 
+
 ```env
 SIP_DOMAIN=sip.linphone.org
 USERNAME=sepet
 PASSWORD=Sk7975097?
-```
+
 
 ### 2. baresip-Konfiguration anpassen
 
@@ -136,4 +138,5 @@ WAV-Datei herunterladen:
 ```bash
 curl -o output_sample.wav https://file-examples.com/storage/fe4b0be9e6b74d6a69e80b0/2017/11/file_example_WAV_1MG.wav
 ```
+
 
