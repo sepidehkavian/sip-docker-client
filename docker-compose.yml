@@ -1,0 +1,15 @@
+services:
+  sip-client:
+    build: .
+    container_name: sip_client
+    ports:
+      - "8085:8085"
+      - "8086:8086"
+      - "8087:8087"
+      - "5060:5060/udp"
+    environment:
+      - SIP_DOMAIN=${SIP_DOMAIN}
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+    stdin_open: true
+    tty: true

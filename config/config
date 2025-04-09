@@ -1,0 +1,13 @@
+module /usr/local/lib/baresip/modules/stdio.so
+module /usr/local/lib/baresip/modules/g711.so
+module /usr/local/lib/baresip/modules/stun.so
+module /usr/local/lib/baresip/modules/turn.so
+module /usr/local/lib/baresip/modules/sip.so
+module /usr/local/lib/baresip/modules/tls.so
+
+sip_trans TLS
+sip_listen 0.0.0.0:5060
+
+audio_codecs g711
+audio_player alsa,default
+audio_source alsa,default

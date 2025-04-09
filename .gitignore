@@ -1,0 +1,4 @@
+*.wav
+*.aiff
+test_ws_*.py
+Dockerfile.test
